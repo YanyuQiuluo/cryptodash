@@ -2,13 +2,16 @@ import WelcomeMessage from './WelcomeMessage';
 import './App.css';
 import AppLayout from "./AppLayout";
 import AppBar from "./AddBar";
+import {AppProvider} from "./AppProvider";
 
 
 function App() {
   return (
       <AppLayout>
-        <AppBar/>
-    <WelcomeMessage/>
+          <AppProvider>
+            <AppBar/>
+            <WelcomeMessage/>
+          </AppProvider>
       </AppLayout>
   );
 }
