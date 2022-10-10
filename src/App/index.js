@@ -10,7 +10,7 @@ function App() {
   return (
       <AppLayout>
           <AppProvider>
-            <AppBar/>
+              <AppBar/>
               <Content>
                   <Settings/>
               </Content>
