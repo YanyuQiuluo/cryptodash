@@ -4,6 +4,7 @@ import AppLayout from "./AppLayout";
 import AppBar from "./AddBar";
 import {AppProvider} from "./AppProvider";
 import Content from "../Shared/Content";
+import DashBoard from "../DashBoard";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
               <AppBar/>
               <Content>
                   <Settings/>
+                  <DashBoard/>
               </Content>
           </AppProvider>
       </AppLayout>
