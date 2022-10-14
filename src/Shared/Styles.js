@@ -1,3 +1,4 @@
+//const theme = 'light';
 const theme = 'dark';
 
 export const lightTheme = theme === 'light';
